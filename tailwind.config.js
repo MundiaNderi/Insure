@@ -17,6 +17,10 @@ module.exports = {
         lightPurple: '#C396C6'
       },
       textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+       backgroundImage: {
+        'heroDesktop': "url('/images/image-intro-desktop.jpg')",
+        'heroMobile': "url('images/image-intro-mobile.jpg')",
+       },
     },
   },
   plugins: [],

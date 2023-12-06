@@ -1,0 +1,24 @@
+{
+  "name": "insure",
+  "version": "1.0.0",
+  "description": "Insure landing page using Tailwind CSS, HTML and JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o ./css/main.css",
+    "watch": "tailwindcss -i src/input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/MundiaNderi/Insure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MundiaNderi/Insure/issues"
+  },
+  "homepage": "https://github.com/MundiaNderi/Insure#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
